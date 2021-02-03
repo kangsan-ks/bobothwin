@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+//다국어
+Route::get('/switchLang/{lang}', 'Locale\LocaleController@switchLang');
+
 Route::get('/', 'Front@main');
 
 Route::get('/sub01/sub01_01', 'Front@sub01');

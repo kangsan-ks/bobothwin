@@ -4,6 +4,7 @@
     <div class="swiper-wrapper">
         <div class="swiper-slide slide01">
             <div class="slide_text_box">
+              {{ __('messages.gnb01') }}
                 <h3>고객과더불어 <strong>Win-Win</strong>하는</h3> 
                 <h1><strong>보스윈</strong>특허</h1>
                 <p>BothWin Patent & Law Firm aiming<br> for a win-win solution.</p>
