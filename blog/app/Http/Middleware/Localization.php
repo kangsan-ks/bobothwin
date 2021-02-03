@@ -7,7 +7,7 @@ use Closure, Session, Auth;
 class Localization {
 
     /**
-     * 언어 목록
+     * 언어 목록 
      *
      * @array $languages
      */
