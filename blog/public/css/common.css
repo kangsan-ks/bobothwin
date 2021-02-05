@@ -5,6 +5,7 @@ body{
 }
 body.ko{
     font-family: "Noto Sans KR", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
 }
 body.jp{
     font-family: "Noto Sans JP", sans-serif;
@@ -15,7 +16,7 @@ body.jp{
     padding: 0 20px;
 } 
 .img_box{width: 100%;}
-img{display: inline-block; width: auto; max-width: 100%;}
+img{display: inline-block; width: auto;}
 .m_none{display: block;}
 .m_block{display: none;}
 

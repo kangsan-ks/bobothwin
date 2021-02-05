@@ -1,17 +1,29 @@
+.chart_en_p,.chart_jp_p,.chart_en_m,.chart_jp_m{
+    display: none;
+}
 /* header */
+#header .lang_box a.on{
+    border-bottom: 2px solid #000;
+}
 #header{
     width: 100%;
-    height: 105px;
+}
+#header .header_top{
+    padding:5px 0 0 40px;
+}
+#header .header_top .lang_box a{
+    font-size: 14px;
+    margin: 0 3px;
 }
 #header .header_inner{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: calc(100% - 74px);
-    line-height: 105px;
     margin: 0 auto;
     height: 105px;
 }
+
 #header .header_inner .logo img{
     max-width: 173px;
 }
@@ -31,6 +43,8 @@
     position: relative;
     cursor: pointer;
     font-size: 22px;
+    line-height: 105px;
+    font-weight: 500;
 }
 #header .header_inner .main_menu > li::after{
     position: absolute;
@@ -72,6 +86,7 @@
 #header .header_inner .respon_menu{
     display: none;
 }
+
 /* footer */
 #footer{
     background:#14191f;
@@ -421,6 +436,9 @@
     width: 27.34%;
     min-width: 220px;
 }
+#sub .sub01_01_content .img_box img{
+    max-width: 100%;
+}
 #sub .sub01_01_content .sub01_box01 .greeting_txt{
     width: 31.9896vw;
     margin-left: 9.76%;
@@ -448,9 +466,15 @@
 }
 #sub .sub01_01_content .sub01_box02 .bw_top p{
     width: 50%;
-    font-size: 20px;
-    line-height: 45px;
+    font-size: 18px;
+    line-height: 40px;
     font-weight: 300;
+}
+#sub .sub01_01_content .sub01_box02 .bw_bottom p{
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-left: 2.7vw;
 }
 #sub .sub01_01_content .sub01_box02 .bw_bottom{
     display: flex;
@@ -460,12 +484,6 @@
 #sub .sub01_01_content .sub01_box02 .bw_bottom .img_box{
     width:15.32%;
     min-width: 150px;
-}
-#sub .sub01_01_content .sub01_box02 .bw_bottom p{
-    font-size: 20px;
-    line-height: 45px;
-    font-weight: 300;
-    margin-left: 2.7vw;
 } 
 #sub .sub01_01_content .sub01_box02 .bw_bottom p strong{
     font-weight: 700;
@@ -506,6 +524,9 @@
 }
 .sub02 .member .member_txt{
     height: 495px;
+}
+.sub02 .member06 .member_txt,.sub02 .member07 .member_txt{
+    height: 650px;
 }
 .sub02 .member.member01{
     width: 100%;
@@ -618,6 +639,9 @@
 .sub03 .chart_m{
     display: none;
 }
+.sub03 img{
+    max-width: 100%;
+}
 
 /* sub04 - sub04_01 */
 .sub04_01 {
@@ -651,6 +675,9 @@
 
 .sub04_02{
     padding: 140px 0 240px 0;
+}
+.sub04_02 img{
+    max-width: 100%;
 }
 .sub04_02 .work_list{
     display: flex;
@@ -690,7 +717,10 @@
 
 /* sub05 */
 .sub05 {
-    padding:110px 0 270px 0;
+    padding:110px 0;
+}
+.sub05 img{
+    max-width: 100%;
 }
 .sub05 h2{
     text-transform: uppercase;
@@ -706,6 +736,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    margin-bottom: 50px;
 }
 .sub05 .local_img .img_box{
     width: 85.625%;
@@ -750,7 +781,20 @@
 .sub05 .local .local_txt > div span strong{
     font-weight: 700;
 }
-
+.sub05 .local_jp{
+    display: none;
+}
+.sub05 .local_add > div{
+    margin: 30px 0;
+} 
+.sub05 .local_add h3{
+    margin-bottom: 15px;
+}
+.sub05 .local_add h3 span{
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 5px;
+}
 @media screen and (max-width: 1400px){
     .inner{
         width: 91.4286vw;
@@ -964,7 +1008,9 @@
         width: 100%;
     }
     #sub .sub01_01_content .sub01_box02 .bw_top .img_box{
-        margin-left: 39.0625vw;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
     }
     #sub .sub01_01_content .sub01_box02 .bw_top .img_box img{
         max-width: 70%;
@@ -1135,7 +1181,7 @@
         font-size: 18px;
     }
     #sub .sub_banner h2{
-        font-size: 30px;
+        font-size: 28px;
     }
     #main .swiper-container .swiper-button-prev, .swiper-button-next{
         width: 5.2083vw;
@@ -1158,6 +1204,9 @@
     }
     #main .q_box01 .main_text_box h2{
         margin: 15px 0 5px 0;
+    }
+    .sub02 .member01 div .memmber01_img {
+        width: 70%;
     }
     .sub02 .member01 > div:last-child{
         padding: 5.5990vw 0 14.7135vw 0;
@@ -1187,6 +1236,12 @@
     .sub05 h2{
         font-size: 26px;
     }
+    .sub02 .member.member01 .m1_txt_box{
+        margin-top: 20px;
+    }
+    #sub .sub01_01_content .sub01_box02{
+        padding: 13.6719vw 0;
+    }
     
 }
 @media screen and (max-width: 480px){
@@ -1196,9 +1251,6 @@
     #sub .sub01_01_content .sub01_box01 .greeting_txt h2{
         font-size: 14px;
         line-height: 34px;
-    }
-    #sub .sub01_01_content .sub01_box02 .bw_top .img_box{
-        margin-left: 0;
     }
     .sub04_02 .work_list .work_list_txt h2{
         font-size: 18px;

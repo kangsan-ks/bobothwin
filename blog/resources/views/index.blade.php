@@ -1,27 +1,27 @@
 @include('inc/head')
 <div id="main">
+
   <div class="swiper-container"> 
     <div class="swiper-wrapper">
         <div class="swiper-slide slide01">
-            <div class="slide_text_box">
-              {{ __('messages.gnb01') }}
-                <h3>고객과더불어 <strong>Win-Win</strong>하는</h3> 
-                <h1><strong>보스윈</strong>특허</h1>
-                <p>BothWin Patent & Law Firm aiming<br> for a win-win solution.</p>
+            <div class="slide_text_box">              
+                <h3>{!! __('messages.slide01_01') !!}</h3> 
+                <h1>{!! __('messages.slide01_02') !!}</h1>
+                <p>{!! __('messages.slide01_03') !!}</p>
             </div>
         </div>
         <div class="swiper-slide slide02">
               <div class="slide_text_box">
-                <h3>고객과더불어 <strong>Win-Win</strong>하는</h3> 
-                <h1><strong>보스윈</strong>특허</h1>
-                <p>BothWin Patent & Law Firm aiming<br> for a win-win solution.</p>
+                <h3>{!! __('messages.slide01_01') !!}</h3> 
+                <h1>{!! __('messages.slide01_02') !!}</h1>
+                <p>{!! __('messages.slide01_03') !!}</p>
               </div>
           </div>
           <div class="swiper-slide slide03">
               <div class="slide_text_box">
-                <h3>고객과더불어 <strong>Win-Win</strong>하는</h3> 
-                <h1><strong>보스윈</strong>특허</h1>
-                <p>BothWin Patent & Law Firm aiming<br> for a win-win solution.</p>
+                <h3>{!! __('messages.slide01_01') !!}</h3> 
+                <h1>{!! __('messages.slide01_02') !!}</h1>
+                <p>{!! __('messages.slide01_03') !!}</p>
               </div>
         </div>
     </div>
@@ -35,9 +35,9 @@
           <img src="/img/main_box_img01.jpg" alt="">
         </div>
         <div class="main_text_box">
-          <h2>사무소 소개</h2>
-          <p>보스윈특허법률 사무소를 소개합니다.</p>
-          <a href="/sub01/sub01_01">+ view more</a> 
+          <h2>{{ __('messages.gnb01') }}</h2>
+          <p>{{ __('messages.main_box1_01_02') }}</p>
+          <a href="/sub01/sub01_01">{{ __('messages.main_box1_01_03') }}</a> 
         </div>
       </li>
       <li>
@@ -45,10 +45,10 @@
           <img src="/img/main_box_img02.jpg" alt="">
         </div>
         <div class="main_text_box">
-          <h2>구성원</h2>
-          <p class="d_none">보스윈특허법률 사무소의 구성원을<br> 소개합니다.</p>
-          <p class="d_block">보스윈특허법률 사무소의 구성원을 소개합니다.</p>
-          <a href="/sub02">+ view more</a> 
+          <h2>{{ __('messages.gnb02') }}</h2>
+          <p class="d_none">{!! __('messages.main_box1_02_02') !!}</p>
+          <p class="d_block">{{ __('messages.main_box1_02_02_01') }}</p>
+          <a href="/sub02">{{ __('messages.main_box1_01_03') }}</a> 
         </div>
       </li>
       <li>
@@ -56,10 +56,10 @@
           <img src="/img/main_box_img03.jpg" alt="">
         </div>
         <div class="main_text_box">
-          <h2>업무분야</h2>
-          <p class="d_none">보스윈특허법률 사무소의 업무분야를<br> 안내합니다.</p>
-          <p class="d_block">보스윈특허법률 사무소의 업무분야를 안내합니다.</p>
-          <a href="/sub04/sub04_01">+ view more</a> 
+          <h2>{{ __('messages.gnb04') }}</h2>
+          <p class="d_none">{!! __('messages.main_box1_03_02') !!}</p>
+          <p class="d_block">{{ __('messages.main_box1_03_02_01') }}</p>
+          <a href="/sub04/sub04_01">{{ __('messages.main_box1_01_03') }}</a> 
         </div>
       </li>
       <li>
@@ -67,10 +67,10 @@
           <img src="/img/main_box_img04.jpg" alt="">
         </div>
         <div class="main_text_box">
-          <h2>오시는길</h2>
-          <p class="d_none">보스윈특허법률 사무소의 오시는 길을<br> 안내합니다.</p>
-          <p class="d_block">보스윈특허법률 사무소의 오시는 길을 안내합니다.</p>
-          <a href="/sub05">+ view more</a> 
+          <h2>{{ __('messages.gnb05_01') }}</h2>
+          <p class="d_none">{!! __('messages.main_box1_04_02') !!}</p>
+          <p class="d_block">{{ __('messages.main_box1_04_02_01') }}</p>
+          <a href="/sub05">{{ __('messages.main_box1_01_03') }}</a> 
         </div>
       </li>
     </ul>

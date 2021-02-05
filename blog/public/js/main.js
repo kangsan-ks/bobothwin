@@ -38,4 +38,9 @@ $(function(){
 		// $(this).parent().siblings().hide();
 	});
 
+	// $('#header .lang_box a').click(function(){
+	// 	$('#header .lang_box a').removeClass('on');
+	// 	$(this).addClass('on');
+	// });
+	// $('#header .lang_box a').eq(0).trigger('click');
 });
