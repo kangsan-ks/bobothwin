@@ -3,11 +3,11 @@
 return [
     
     //헤더
-    "gnb01" => "사무소 소개",
+    "gnb01" => "Introduction",
     "gnb01_01" => "Greeting",
     "gnb02" => "Members",
     "gnb03" => "Organization",
-    "gnb04" => "업무분야",
+    "gnb04" => "Business field",
     "gnb04_01" => "Our Services",
     "gnb04_02" => "Characteristics of Services",
     "gnb05" => "Contact Us",

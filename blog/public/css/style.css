@@ -44,7 +44,7 @@
     cursor: pointer;
     font-size: 22px;
     line-height: 105px;
-    font-weight: 500;
+    font-weight: 700;
 }
 #header .header_inner .main_menu > li::after{
     position: absolute;
